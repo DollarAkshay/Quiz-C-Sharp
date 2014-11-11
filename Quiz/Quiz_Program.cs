@@ -26,7 +26,7 @@ namespace Quiz{
 
         static void intro(){
 
-            synth.SpeakAsync("Welcome, to the Greatest Noob Quiz created by, Aakshay. Prepare to be amazed, ladies and gentlemen. I'm Peter, and I shall be the host for the day. Hope you enjoy, playing this quiz. Lets Begin. , ,");
+            synth.SpeakAsync("Welcome, to the Greatest Quiz created by, Aakshay. I'm Peter, and I shall be the host for the day. Lets Begin. , ,");
 
             Console.SetWindowPosition(0, 0);
             Console.WindowWidth = 110;
@@ -76,7 +76,7 @@ namespace Quiz{
                     else if (i < 110)
                         Console.Write("█");
                 }
-                Thread.Sleep((int)(110/fast));
+                Thread.Sleep((int)(50/fast));
             }
 
             Console.ForegroundColor = ConsoleColor.Green;
