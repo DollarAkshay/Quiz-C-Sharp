@@ -23,7 +23,6 @@ build/
 [Bb]uild[Ll]og.*
 
 *.ini
-*.ico
 *_i.c
 *_p.c
 *.ilk
